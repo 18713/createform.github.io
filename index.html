@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-container">
+            <div class="header">
+                Create Your Account
+            </div>
+
+            <form id="myForm">
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" name="fullName" id="fullName" class="form-control">
+                    <div class="invalid hide">
+                        Length of Full Name must be greater than 6.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                    <div class="invalid hide">
+                        Must be an valid email.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control">
+                    <div class="invalid hide">
+                        Password length must be greater than 6.
+                    </div>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

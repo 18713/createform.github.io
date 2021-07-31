@@ -1,0 +1,42 @@
+body,
+html {
+  background: #e3e3e3;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+}
+
+.todo-container {
+  margin: 0 auto;
+  max-width: 550px;
+  margin-top: 50px;
+  background: #ffffff;
+ 
+}
+
+.header {
+  padding: 0 25px;
+  height: 55px;
+  line-height: 55px;
+  background: #bbbbbb;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+#myForm {
+  padding: 15px;
+}
+
+.invalid {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3645;
+}
+
+.hide {
+  display: none;
+}
